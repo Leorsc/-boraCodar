@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    max-width: 875px;
+    max-height: 498px;
+    background-color: #D9CDF7;
+
+}
+
+.container__products {
+    display: flex;
+    width: 449px;
+    height: 253px;
+
+    margin: 137px 0;
+}
+
+#sofa__image {
+    width: 449px;
+    height: 223px;
+}
+
+#button__rotation {
+    position: absolute;
+
+    width: 33px;
+    height: 22px;
+
+    margin: 8px 50px 222px 366px;
+
+    cursor: pointer;
+}
+
+.container__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 281px;
+    height: 498px;
+
+    margin-left: 13px;
+
+    color: #271A45;
+}
+
+.container__info .button__add {
+    width: 148px;
+    height: 32px;
+    margin-top: 20px;
+    padding: 8px;
+
+    text-align: center;
+    border: 0.5px solid #271A45;
+    border-radius: 999px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    cursor: pointer;
+}
+
+.content__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 281px;
+    height: 82px;
+    margin-right: 132px;
+}
+
+.content__info h2 {
+    width: 274px;
+    height: 32px;
+
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.content__info .code {
+    width: 75px;
+    height: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 100%;
+}
+
+.content__info .value {
+    width: 65px;
+    height: 16px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
